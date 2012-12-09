@@ -5,9 +5,9 @@
     return declare(null, {
 
     	/**
-    	 * Post create. cycle.
+    	 * Constructor.
     	 */
-        postCreate : function () {}
+        constructor : function () {}
 
     });
 });]]></content>
