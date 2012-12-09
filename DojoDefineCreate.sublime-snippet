@@ -1,0 +1,19 @@
+<snippet>
+	<content>
+<![CDATA[define([ "dojo/_base/declare"],
+        function( declare) {
+    return declare(null, {
+
+    	/**
+    	 * Post create. cycle.
+    	 */
+        postCreate : function () {}
+
+    });
+});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dojo.define</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Define a Dojo AMD</description>
+</snippet>

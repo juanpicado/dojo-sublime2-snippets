@@ -1,0 +1,38 @@
+<snippet>
+	<content>
+<![CDATA[
+define([
+         "dojo",
+         "dojo/_base/declare",
+         "dijit/_WidgetBase",
+         "dijit/_TemplatedMixin",
+         "dijit/_WidgetsInTemplateMixin",
+         "dojo/text!me/web/widget/tweetpoll/templates/$1" ],
+        function(
+                dojo,
+                declare,
+                _WidgetBase,
+                _TemplatedMixin,
+                _WidgetsInTemplateMixin,
+                template) {
+            return declare([ _WidgetBase,
+                             _TemplatedMixin,
+                             LoggedUtilities,
+                             _WidgetsInTemplateMixin], {
+
+          // template string.
+          templateString : template,
+
+          postCreate : function () { $2 }
+
+
+    });
+});
+
+});]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dojo.widget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Define a Dojo Widget AMD</description>
+</snippet>
